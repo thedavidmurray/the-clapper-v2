@@ -1,0 +1,49 @@
+name: TheClapper
+options:
+  bundleIdPrefix: com.edgeless
+  deploymentTarget:
+    iOS: "16.0"
+settings:
+  base:
+    SWIFT_VERSION: 5.10
+    CURRENT_PROJECT_VERSION: 1
+    MARKETING_VERSION: 1.0.0
+configs:
+  Debug: debug
+  Release: release
+targets:
+  TheClapper:
+    type: application
+    platform: iOS
+    sources:
+      - path: TheClapper
+    info:
+      path: TheClapper/Config/Info.plist
+    entitlements:
+      path: TheClapper/Config/TheClapper.entitlements
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.edgeless.theclapper
+        PRODUCT_NAME: TheClapper
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: true
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: true
+        TARGETED_DEVICE_FAMILY: "1,2"
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: ""
+        ENABLE_PREVIEWS: YES
+        OTHER_LDFLAGS: "$(inherited)"
+        SWIFT_EMIT_LOC_STRINGS: YES
+    scheme:
+      testTargets:
+        - TheClapperTests
+
+  TheClapperTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: TheClapperTests
+    dependencies:
+      - target: TheClapper
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.edgeless.theclapper.tests

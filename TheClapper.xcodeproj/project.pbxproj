@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067629214330A6D25506F9C6 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6233C73189E737B90A6DE71 /* PaywallView.swift */; };
+		1D2A36F49810D979DDDCF783 /* DTWEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489BE14B6D23D0B5A5CB5DE /* DTWEngine.swift */; };
+		201D1A43EB37DC37A72E5A43 /* ProfileEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E43D0D549A61CC0D9FC8F8 /* ProfileEditorView.swift */; };
+		55B1E56826FBC8B8DA967B4F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD5F582B5D3A63E6908EDE /* SettingsView.swift */; };
+		3BAE56939633052CC9109D29 /* FFTProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B46E43F3A788FC71F94531 /* FFTProcessor.swift */; };
+		538185BC56E56599FF97E0BC /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEEC296050EA5BBA12BBB8 /* ProfileManager.swift */; };
+		5B0867B263E637A20D9FE85A /* GestureTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C16062C92B58AFB36DBB610 /* GestureTrainingView.swift */; };
+		6C33A767D7A1BD082A5ECE3A /* DTWEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6809B8B830645C80D278724 /* DTWEngineTests.swift */; };
+		BD755F4770CCE536285E5593 /* PeakDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4048CC509DA1B68543FEFE /* PeakDetectorTests.swift */; };
+		5A6EBC03B6D3712F8BEB2F6D /* GestureMatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7C8EDA779B7D787B36DDC /* GestureMatcherTests.swift */; };
+		9CCDFCCBB7B987061FB7ACF3 /* PeakDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB2D3053D16642F272DE11B /* PeakDetector.swift */; };
+		A2A30F5E9C83F81944298B8B /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0532ADDC8B894F369B302 /* StoreManager.swift */; };
+		A7D297CEA2BF0AF27A808F99 /* AudioCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE1FDF6D4D7B8FC457860B /* AudioCapture.swift */; };
+		AA55D3E2E99AE30E288C31A1 /* AudioVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1604659F8E31A7B56068B9D5 /* AudioVisualizer.swift */; };
+		AF5312915144052637B0874D /* GestureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F466CDF2EC4A69AD2CACAA /* GestureType.swift */; };
+		B1217B35F0DA3BFCEB821FCC /* GestureMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D6829D7E78525E62922F64 /* GestureMatcher.swift */; };
+		C55C464117CF90814B7AB664 /* TheClapperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2980EE2A3FE05C9820C3783B /* TheClapperApp.swift */; };
+		D0450C38DBAEEA54CEFE5113 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A387091968522EDA929450 /* ContentView.swift */; };
+		D33D6BC23E89CA01E10E0087 /* TemplateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBF8607F39D46036154D218 /* TemplateStore.swift */; };
+		F3DA2B1ECE80247E9767F424 /* ClapperIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DED78A5F4E374E2823152 /* ClapperIntent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		389D4E518AE757CC3AC6A936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD1382759D368C4CEDA2ECF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB119F938A2E50D3747AE09A;
+			remoteInfo = TheClapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07EE1FDF6D4D7B8FC457860B /* AudioCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCapture.swift; sourceTree = "<group>"; };
+		0F093B5F9DE1EF59DF09C4F3 /* TheClapper.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TheClapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FD0532ADDC8B894F369B302 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		1604659F8E31A7B56068B9D5 /* AudioVisualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioVisualizer.swift; sourceTree = "<group>"; };
+		24A387091968522EDA929450 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2980EE2A3FE05C9820C3783B /* TheClapperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheClapperApp.swift; sourceTree = "<group>"; };
+		41E43D0D549A61CC0D9FC8F8 /* ProfileEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditorView.swift; sourceTree = "<group>"; };
+		9AAD5F582B5D3A63E6908EDE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		52B46E43F3A788FC71F94531 /* FFTProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTProcessor.swift; sourceTree = "<group>"; };
+		6701DE6E52464F292B8CB631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6C16062C92B58AFB36DBB610 /* GestureTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureTrainingView.swift; sourceTree = "<group>"; };
+		6CB2D3053D16642F272DE11B /* PeakDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeakDetector.swift; sourceTree = "<group>"; };
+		77D6829D7E78525E62922F64 /* GestureMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureMatcher.swift; sourceTree = "<group>"; };
+		82B7FF27E8A3E30BC39F0484 /* TheClapperTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TheClapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847DBE9D43C0BBA540A282DD /* TheClapper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheClapper.entitlements; sourceTree = "<group>"; };
+		8FCEEC296050EA5BBA12BBB8 /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		B489BE14B6D23D0B5A5CB5DE /* DTWEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTWEngine.swift; sourceTree = "<group>"; };
+		D0F466CDF2EC4A69AD2CACAA /* GestureType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureType.swift; sourceTree = "<group>"; };
+		ECBF8607F39D46036154D218 /* TemplateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateStore.swift; sourceTree = "<group>"; };
+		F01DED78A5F4E374E2823152 /* ClapperIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClapperIntent.swift; sourceTree = "<group>"; };
+		F6233C73189E737B90A6DE71 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		F6809B8B830645C80D278724 /* DTWEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTWEngineTests.swift; sourceTree = "<group>"; };
+		DE4048CC509DA1B68543FEFE /* PeakDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeakDetectorTests.swift; sourceTree = "<group>"; };
+		B8B7C8EDA779B7D787B36DDC /* GestureMatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureMatcherTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2563BBCEA7666F75BDA63C27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24A387091968522EDA929450 /* ContentView.swift */,
+				6C16062C92B58AFB36DBB610 /* GestureTrainingView.swift */,
+				41E43D0D549A61CC0D9FC8F8 /* ProfileEditorView.swift */,
+				9AAD5F582B5D3A63E6908EDE /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2783BA12346CCCBD8CB0E30A /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				F01DED78A5F4E374E2823152 /* ClapperIntent.swift */,
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		296C184F83CE17AD5FCB5989 /* TheClapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6809B8B830645C80D278724 /* DTWEngineTests.swift */,
+				B8B7C8EDA779B7D787B36DDC /* GestureMatcherTests.swift */,
+				DE4048CC509DA1B68543FEFE /* PeakDetectorTests.swift */,
+			);
+			path = TheClapperTests;
+			sourceTree = "<group>";
+		};
+		2DF1F28DF6015EEDF85FCEDF /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				F6233C73189E737B90A6DE71 /* PaywallView.swift */,
+				0FD0532ADDC8B894F369B302 /* StoreManager.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		4975D72325B3B7A96036DA8B /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				07EE1FDF6D4D7B8FC457860B /* AudioCapture.swift */,
+				52B46E43F3A788FC71F94531 /* FFTProcessor.swift */,
+				6CB2D3053D16642F272DE11B /* PeakDetector.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		4E7FB4BA47B75BBD9AB3CBDC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8FCEEC296050EA5BBA12BBB8 /* ProfileManager.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		6D6F4B1FC58F71580E1BF946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F093B5F9DE1EF59DF09C4F3 /* TheClapper.app */,
+				82B7FF27E8A3E30BC39F0484 /* TheClapperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D42F52054A0BDC73922AD24 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4975D72325B3B7A96036DA8B /* Audio */,
+				BC1335CBA9DC0BF025BB9193 /* Gesture */,
+				4E7FB4BA47B75BBD9AB3CBDC /* Profile */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		81F2C480C3C7DD2C6FD1FDFE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E0DFB1F4730548728C64433E /* Components */,
+				2563BBCEA7666F75BDA63C27 /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9EF01B672684A4958370425B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				6701DE6E52464F292B8CB631 /* Info.plist */,
+				847DBE9D43C0BBA540A282DD /* TheClapper.entitlements */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		BC1335CBA9DC0BF025BB9193 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				B489BE14B6D23D0B5A5CB5DE /* DTWEngine.swift */,
+				77D6829D7E78525E62922F64 /* GestureMatcher.swift */,
+				D0F466CDF2EC4A69AD2CACAA /* GestureType.swift */,
+				ECBF8607F39D46036154D218 /* TemplateStore.swift */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
+		D5A43DE732847FC91810F1B9 = {
+			isa = PBXGroup;
+			children = (
+				FEAE7A608FEF27C94ADF0797 /* TheClapper */,
+				296C184F83CE17AD5FCB5989 /* TheClapperTests */,
+				6D6F4B1FC58F71580E1BF946 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0DFB1F4730548728C64433E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1604659F8E31A7B56068B9D5 /* AudioVisualizer.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FCEB6BD0A149D8A574A8E2EB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2980EE2A3FE05C9820C3783B /* TheClapperApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FEAE7A608FEF27C94ADF0797 /* TheClapper */ = {
+			isa = PBXGroup;
+			children = (
+				FCEB6BD0A149D8A574A8E2EB /* App */,
+				9EF01B672684A4958370425B /* Config */,
+				7D42F52054A0BDC73922AD24 /* Core */,
+				2783BA12346CCCBD8CB0E30A /* Intents */,
+				2DF1F28DF6015EEDF85FCEDF /* Store */,
+				81F2C480C3C7DD2C6FD1FDFE /* UI */,
+			);
+			path = TheClapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60C36AFC3668B58487D68A9B /* TheClapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9604A1E3352EC15C99E995 /* Build configuration list for PBXNativeTarget "TheClapperTests" */;
+			buildPhases = (
+				79005A530DDEEB006B19AD12 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE208499D2F2870F0426EEDE /* PBXTargetDependency */,
+			);
+			name = TheClapperTests;
+			packageProductDependencies = (
+			);
+			productName = TheClapperTests;
+			productReference = 82B7FF27E8A3E30BC39F0484 /* TheClapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB119F938A2E50D3747AE09A /* TheClapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0518A49B98B140A6E022C634 /* Build configuration list for PBXNativeTarget "TheClapper" */;
+			buildPhases = (
+				175B0DCA4141F7244F7B15C5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheClapper;
+			packageProductDependencies = (
+			);
+			productName = TheClapper;
+			productReference = 0F093B5F9DE1EF59DF09C4F3 /* TheClapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD1382759D368C4CEDA2ECF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CB119F938A2E50D3747AE09A = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2423950E53FE3E26939AAEFC /* Build configuration list for PBXProject "TheClapper" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D5A43DE732847FC91810F1B9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6D6F4B1FC58F71580E1BF946 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB119F938A2E50D3747AE09A /* TheClapper */,
+				60C36AFC3668B58487D68A9B /* TheClapperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		175B0DCA4141F7244F7B15C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D297CEA2BF0AF27A808F99 /* AudioCapture.swift in Sources */,
+				AA55D3E2E99AE30E288C31A1 /* AudioVisualizer.swift in Sources */,
+				F3DA2B1ECE80247E9767F424 /* ClapperIntent.swift in Sources */,
+				D0450C38DBAEEA54CEFE5113 /* ContentView.swift in Sources */,
+				1D2A36F49810D979DDDCF783 /* DTWEngine.swift in Sources */,
+				3BAE56939633052CC9109D29 /* FFTProcessor.swift in Sources */,
+				B1217B35F0DA3BFCEB821FCC /* GestureMatcher.swift in Sources */,
+				5B0867B263E637A20D9FE85A /* GestureTrainingView.swift in Sources */,
+				AF5312915144052637B0874D /* GestureType.swift in Sources */,
+				067629214330A6D25506F9C6 /* PaywallView.swift in Sources */,
+				9CCDFCCBB7B987061FB7ACF3 /* PeakDetector.swift in Sources */,
+				201D1A43EB37DC37A72E5A43 /* ProfileEditorView.swift in Sources */,
+				55B1E56826FBC8B8DA967B4F /* SettingsView.swift in Sources */,
+				538185BC56E56599FF97E0BC /* ProfileManager.swift in Sources */,
+				A2A30F5E9C83F81944298B8B /* StoreManager.swift in Sources */,
+				D33D6BC23E89CA01E10E0087 /* TemplateStore.swift in Sources */,
+				C55C464117CF90814B7AB664 /* TheClapperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79005A530DDEEB006B19AD12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C33A767D7A1BD082A5ECE3A /* DTWEngineTests.swift in Sources */,
+				BD755F4770CCE536285E5593 /* PeakDetectorTests.swift in Sources */,
+				5A6EBC03B6D3712F8BEB2F6D /* GestureMatcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE208499D2F2870F0426EEDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB119F938A2E50D3747AE09A /* TheClapper */;
+			targetProxy = 389D4E518AE757CC3AC6A936 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05113A28E3CF19F99F146439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.1;
+				INFOPLIST_FILE = TheClapperTests/Info.plist;
+			};
+			name = Debug;
+		};
+		7098046D55B3DA4B76C61002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edgeless.theclapper.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheClapper.app/TheClapper";
+			};
+			name = Release;
+		};
+		9CF508F722D214D797D727DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edgeless.theclapper.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheClapper.app/TheClapper";
+			};
+			name = Debug;
+		};
+		9F9466D034C75F7416E2501A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.1;
+			};
+			name = Release;
+		};
+		B77F96C8EF4941CA7ECADF1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TheClapper/Config/TheClapper.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TheClapper/Config/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edgeless.theclapper;
+				PRODUCT_NAME = TheClapper;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D362C2F63E8182EDCB044BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TheClapper/Config/TheClapper.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TheClapper/Config/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edgeless.theclapper;
+				PRODUCT_NAME = TheClapper;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0518A49B98B140A6E022C634 /* Build configuration list for PBXNativeTarget "TheClapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D362C2F63E8182EDCB044BA1 /* Debug */,
+				B77F96C8EF4941CA7ECADF1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2423950E53FE3E26939AAEFC /* Build configuration list for PBXProject "TheClapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05113A28E3CF19F99F146439 /* Debug */,
+				9F9466D034C75F7416E2501A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BD9604A1E3352EC15C99E995 /* Build configuration list for PBXNativeTarget "TheClapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF508F722D214D797D727DB /* Debug */,
+				7098046D55B3DA4B76C61002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD1382759D368C4CEDA2ECF5 /* Project object */;
+}

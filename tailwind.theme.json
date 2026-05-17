@@ -1,0 +1,59 @@
+{
+  "theme": {
+    "extend": {
+      "colors": {
+        "primary": "#0051d5",
+        "secondary": "#6c7278",
+        "success": "#248a3d",
+        "danger": "#ff3b30",
+        "warning": "#ff9500",
+        "neutral": "#f2f2f7",
+        "on-primary": "#ffffff",
+        "on-success": "#ffffff"
+      },
+      "fontFamily": {
+        "h1": [
+          "SF Pro Display"
+        ],
+        "body": [
+          "SF Pro Text"
+        ],
+        "caption": [
+          "SF Pro Text"
+        ]
+      },
+      "fontSize": {
+        "h1": [
+          "28px",
+          {
+            "fontWeight": "700"
+          }
+        ],
+        "body": [
+          "17px",
+          {
+            "fontWeight": "400"
+          }
+        ],
+        "caption": [
+          "12px",
+          {
+            "fontWeight": "400"
+          }
+        ]
+      },
+      "borderRadius": {
+        "sm": "8px",
+        "md": "12px",
+        "lg": "16px",
+        "full": "9999px"
+      },
+      "spacing": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px"
+      }
+    }
+  }
+}
