@@ -1,0 +1,3 @@
+The Clapper is a gesture-driven voice assistant for iOS. Clap, snap, or whistle to trigger shortcuts, switch profiles, and control your device hands-free.
+
+Perfect for cooking, driving, workouts, or anytime your hands are busy. Set up custom sound patterns, link them to Shortcuts actions, and automate your day with a clap.

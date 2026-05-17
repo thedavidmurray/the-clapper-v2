@@ -1,0 +1,1 @@
+clapper,gesture,voice,shortcut,siri,sound,automation,handsfree,whistle,snap

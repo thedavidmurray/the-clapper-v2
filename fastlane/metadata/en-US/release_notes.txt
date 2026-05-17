@@ -1,0 +1,6 @@
+Initial release:
+• Gesture detection for claps, snaps, and whistles
+• Profile-based context switching
+• Apple Shortcuts integration
+• Siri App Intents support
+• iCloud profile sync

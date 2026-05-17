@@ -18,6 +18,8 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>The Clapper needs microphone access to detect claps, snaps, and other gesture sounds.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
